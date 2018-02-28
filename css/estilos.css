@@ -1,0 +1,97 @@
+h1 {
+	border: 1px solid cadetblue;
+	border-radius: 4px;
+	padding: 5px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #808080;
+}
+
+.tablero {
+	display: flex;
+	border: 2px solid;
+	padding: 0;
+	width: 400px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.puntos {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid;
+    padding: 0;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+}
+
+.puntos_rojos{
+    background-color: blue;
+    width: 35px;
+    height: 35px;
+    margin-top: 2px;
+    margin-left: 5px;
+    border-radius: 50px;
+    border: 2px solid;	
+}
+
+.puntos_azules{
+    background-color: red;
+    width: 35px;
+    height: 35px;
+    margin-top: 2px;
+    margin-left: 5px;
+    border-radius: 50px;
+    border: 2px solid;	
+}
+
+.columna {
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+}
+
+.caja-blanca{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+}
+
+.caja-negra{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+
+.fichas{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-radius: 50px;
+	border: 2px solid;
+}
+
+.fichas-rojas {
+	background-color: red;
+}
+
+.fichas-azules {
+	background-color: blue;
+}
+
+elemento {
+    left: 0;
+    top: 0;
+}
+
+.footer {
+    margin-top: 10px;
+    background-color: cadetblue;
+    padding: 5px;
+	font-size: 14px;
+}
